@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./App.css";
 import { Hero } from "./components/Hero";
+import { First } from "./components/first-section/First";
 
 function App() {
   return (
@@ -13,41 +14,7 @@ function App() {
         </Row>
       </Container>
       <Hero />
-      <Container>
-        <Row>
-          <Col className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            HEADER
-          </Col>
-        </Row>
-        <Row>
-          <Col className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            TEXT
-          </Col>
-        </Row>
-        <Row>
-          <Col className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            TEXT
-          </Col>
-        </Row>
-        <Row>
-          <Col className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            INPUT
-          </Col>
-          <Col className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            BUTTON
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            TEXT
-          </Col>
-          <Col className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            IMAGE
-          </Col>
-        </Row>
-      </Container>
+      <First />
       <Container>
         <Row>
           <Col className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
