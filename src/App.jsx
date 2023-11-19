@@ -3,6 +3,7 @@ import "./App.css";
 import { Hero } from "./components/Hero";
 import { First } from "./components/first-section/First";
 import { Second } from "./components/second-section/Second";
+import { Third } from "./components/third-section/Third";
 
 function App() {
   return (
@@ -17,16 +18,7 @@ function App() {
       <Hero />
       <First />
       <Second />
-      <Container>
-        <Row>
-          <Col className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            TEXT
-          </Col>
-          <Col className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            IMAGE
-          </Col>
-        </Row>
-      </Container>
+      <Third />
       <Container>
         <Row>
           <Col className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
