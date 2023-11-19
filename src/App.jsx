@@ -4,6 +4,7 @@ import { Hero } from "./components/Hero";
 import { First } from "./components/first-section/First";
 import { Second } from "./components/second-section/Second";
 import { Third } from "./components/third-section/Third";
+import { Fourth } from "./components/fourth-section/Fourth";
 
 function App() {
   return (
@@ -19,16 +20,7 @@ function App() {
       <First />
       <Second />
       <Third />
-      <Container>
-        <Row>
-          <Col className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            IMAGE
-          </Col>
-          <Col className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            TEXT
-          </Col>
-        </Row>
-      </Container>
+      <Fourth />
       <Container>
         <Row>
           <Col className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
