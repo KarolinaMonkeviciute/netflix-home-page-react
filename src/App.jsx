@@ -5,6 +5,7 @@ import { First } from "./components/first-section/First";
 import { Second } from "./components/second-section/Second";
 import { Third } from "./components/third-section/Third";
 import { Fourth } from "./components/fourth-section/Fourth";
+import { Faq } from "./components/faq/Faq";
 
 function App() {
   return (
@@ -21,29 +22,7 @@ function App() {
       <Second />
       <Third />
       <Fourth />
-      <Container>
-        <Row>
-          <Col className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            TEXT
-          </Col>
-        </Row>
-        <Row>
-          <Col className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            MODAL
-          </Col>
-        </Row>
-        <Row>
-          <Col className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            TEXT
-          </Col>
-          <Col className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            INPUT
-          </Col>
-          <Col className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            BUTTON
-          </Col>
-        </Row>
-      </Container>
+      <Faq />
       <Container>
         <Row>
           <Col className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">

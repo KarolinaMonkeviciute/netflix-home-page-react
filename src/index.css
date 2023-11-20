@@ -5,7 +5,43 @@ body, body * {
   box-sizing: border-box;
 }
 
-div {
-  /* border: 1px solid black; */
+.faq-container{
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
+.faqsCol{
+  width: 80%;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+.faq{
+  padding: 0.2rem;
+  padding-right: 2.5rem;
+}
+.faq-question{
+  transition: all .4s ease;
+  cursor: pointer;
+  background-color: #2d2d2d;
+  padding: 1rem 1.5rem;
+}
+.faq-answer{
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all .4s ease;
+  padding: 0.3rem 1.5rem;
+}
+.faq.open{
+  margin-bottom: 2rem;
+}
+.faq.open .faq-answer{
+  max-height: 1000px;
+  opacity: 1;
+  background-color: #2d2d2d;
+}
